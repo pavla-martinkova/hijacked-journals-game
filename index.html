@@ -7,7 +7,7 @@
 <style>
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #008691;
+    background: #bae899;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -18,7 +18,7 @@
   }
 
   .container {
-    background: #ffffffdd;
+    background: #0e3300;
     padding: 2rem;
     border-radius: 20px;
     text-align: center;
@@ -30,7 +30,7 @@
 
   h1 {
     margin-bottom: 1rem;
-    color: #008691;
+    color: #859100;
     font-size: 1.6rem;
   }
 
@@ -39,7 +39,7 @@
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 30px;
-    background-color: #008691;
+    background-color: #6f9100;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -87,25 +87,20 @@
 </head>
 <body>
   <div class="container">
-    <h1>Scenario Draw for Workshop</h1>
-    <button onclick="drawScenario()">🎲 Draw a scenario</button>
-    <div id="scenario">Click the button to draw a scenario</div>
+    <h1>Poznejte predátora</h1>
+    <button onclick="drawScenario()">🎲 Vylosujte si časopisy</button>
+    <div id="scenario">Jeden ve dvojici je pochybný, druhý legitimní</div>
   </div>
 
 <script>
   const allScenarios = [
-    ["You are a researcher at a lecture on Electronic Information Sources.", 
-     "During the Open Access section, you openly state that with Sci-Hub, OA is not really necessary."],
-    ["You are a researcher who stops your data steward in the hallway.", 
-     "You ask whether it’s fine to submit an empty Data Management Plan (DMP), because 'nobody checks it anyway'."],
-    ["You are a researcher attending a training on Data Management Plans.", 
-     "You feel frustrated by the administrative burden and complain that you would rather do experiments, since you don’t see the value of a DMP."],
-    ["You are a researcher in a project group meeting about new Open Science policies.", 
-     "You express your concern that making data openly available will lead to it being stolen."],
-    ["You are a researcher at a conference session on Open Science funding.", 
-     "You feel frustrated and argue that the requirements take too much of your budget unnecessarily."],
-    ["You are a researcher at a conference on Open Science.", 
-     "During a coffee break, you approach a data steward to ask who actually pays for Open Science."]
+    [ "[Jökull journal](http://www.jokulljournal.com) & [Jökull](https://jokulljournal.is)]" ],
+    [ "[Multicultural Education](http://ijdri.com/me) & [International Journal of Multicultural Editation](https://ijme-journal.org/index.php/ijme)" ],
+    [ "[OEconomia](https://oeconomiajournal.com/index.php/view/index) & [Œconomia](https://journals.openedition.org/oeconomia/?lang=en)" ],
+    [ "[OpenNano](https://www.sciencedirect.com/journal/opennano) & [Open Nano Research Journal](https://opennano.life)" ],
+    [ "[Sylwan](https://sylwan-journal.pl) & [Sylwan](http://sylwan.ibles.org)" ],
+    [ "[tanz](https://www.der-theaterverlag.de/tanz) & [Tanz Research Journal](https://tanzresearch.com/)" ],
+    [ "[Staps](https://shs.cairn.info/revue-staps?lang=fr) & [Staps Journal](https://stapsjournal.com)" ]
   ];
 
   let remainingScenarios = [...allScenarios];
