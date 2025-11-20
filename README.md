@@ -1,2 +1,5 @@
-# DS-communication-workshop
-Simple app for drawing scenarios during Communication Workshop for Data Stewards (on September 25, 2025)
+# Hijacked journals drawing app
+
+Simple app for drawing a pair of legitimate and hijacked journal.
+App created by [Anna-Soldanova-KNAV](https://github.com/Anna-Soldanova-KNAV) for Communication Workshop for Data Stewards (on September 25, 2025). 
+Hijacked journals recognition game created by Tereza Šímová, Kristýna Zychová and Kristýna Paulová as part of Stop Predatory Practice teaching module, available under [CC BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/deed.cs) at [osf.io/gk7rh](osf.io/gk7rh).
