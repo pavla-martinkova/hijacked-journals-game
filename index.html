@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scenario Draw</title>
+<title>Poznejte predátora</title>
 <style>
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +18,7 @@
   }
 
   .container {
-    background: #0e3300;
+    background: #d4fcd5;
     padding: 2rem;
     border-radius: 20px;
     text-align: center;
@@ -94,13 +94,20 @@
 
 <script>
   const allScenarios = [
-    [ "[Jökull journal](http://www.jokulljournal.com) & [Jökull](https://jokulljournal.is)]" ],
-    [ "[Multicultural Education](http://ijdri.com/me) & [International Journal of Multicultural Editation](https://ijme-journal.org/index.php/ijme)" ],
-    [ "[OEconomia](https://oeconomiajournal.com/index.php/view/index) & [Œconomia](https://journals.openedition.org/oeconomia/?lang=en)" ],
-    [ "[OpenNano](https://www.sciencedirect.com/journal/opennano) & [Open Nano Research Journal](https://opennano.life)" ],
-    [ "[Sylwan](https://sylwan-journal.pl) & [Sylwan](http://sylwan.ibles.org)" ],
-    [ "[tanz](https://www.der-theaterverlag.de/tanz) & [Tanz Research Journal](https://tanzresearch.com/)" ],
-    [ "[Staps](https://shs.cairn.info/revue-staps?lang=fr) & [Staps Journal](https://stapsjournal.com)" ]
+    [" <a href="http://www.jokulljournal.com">Jökull journal</a>",
+     "& [Jökull](https://jokulljournal.is)]"],
+    ["[Multicultural Education](http://ijdri.com/me)", 
+     "& [International Journal of Multicultural Editation](https://ijme-journal.org/index.php/ijme)"],
+    ["[OEconomia](https://oeconomiajournal.com/index.php/view/index)",
+     "& [Œconomia](https://journals.openedition.org/oeconomia/?lang=en)"],
+    ["[OpenNano](https://www.sciencedirect.com/journal/opennano)", 
+     "& [Open Nano Research Journal](https://opennano.life)"],
+    ["[Sylwan](https://sylwan-journal.pl)", 
+     "& [Sylwan](http://sylwan.ibles.org)"],
+    ["[tanz](https://www.der-theaterverlag.de/tanz)",
+     "& [Tanz Research Journal](https://tanzresearch.com/)"],
+    ["[Staps](https://shs.cairn.info/revue-staps?lang=fr)",
+     "& [Staps Journal](https://stapsjournal.com)"]
   ];
 
   let remainingScenarios = [...allScenarios];
